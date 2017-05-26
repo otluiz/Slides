@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  25 MAY 2017 19:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  26 MAY 2017 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ApresentaDissertaçao.tex
-(./ApresentaDissertaçao.tex
+**ApresentaDissertaçao2.tex
+(./ApresentaDissertaçao2.tex
 LaTeX2e <2016/02/01>
 Babel <3.9n> and hyphenation patterns for 13 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1314,8 +1314,8 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(./ApresentaDissertaçao.aux)
-\openout1 = `ApresentaDissertaçao.aux'.
+(./ApresentaDissertaçao2.aux)
+\openout1 = `ApresentaDissertaçao2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
@@ -1417,9 +1417,9 @@ LaTeX Info: Redefining \ref on input line 26.
 LaTeX Info: Redefining \pageref on input line 26.
 LaTeX Info: Redefining \nameref on input line 26.
 
-(./ApresentaDissertaçao.out) (./ApresentaDissertaçao.out)
+(./ApresentaDissertaçao2.out) (./ApresentaDissertaçao2.out)
 \@outlinefile=\write5
-\openout5 = `ApresentaDissertaçao.out'.
+\openout5 = `ApresentaDissertaçao2.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 26.
@@ -1501,10 +1501,10 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 26.
 \c@lstlisting=\count177
 
-(./ApresentaDissertaçao.nav)
+(./ApresentaDissertaçao2.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 43.
+(Font)              size <5> substituted on input line 31.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1518,7 +1518,7 @@ Package epstopdf Info: Source file: <Figuras/Capa/upelogo.eps>
 (epstopdf)                    size: 13855 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figuras/Capa/upelogo-eps-c
 onverted-to.pdf Figuras/Capa/upelogo.eps>
-(epstopdf)             \includegraphics on input line 58.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figuras/Capa/upelogo-eps-converted-to.pdf, id=90, 195.73125pt x 127.47626pt>
@@ -1526,28 +1526,28 @@ File: Figuras/Capa/upelogo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figuras/Capa/upelogo-eps-converted-to.pdf>
 Package pdftex.def Info: Figuras/Capa/upelogo-eps-converted-to.pdf used on inpu
-t line 58.
+t line 57.
 (pdftex.def)             Requested size: 45.52197pt x 36.98856pt.
 
 <Figuras/Capa/logoPoli.jpg, id=91, 463.7325pt x 301.125pt>
 File: Figuras/Capa/logoPoli.jpg Graphic file (type jpg)
 
 <use Figuras/Capa/logoPoli.jpg>
-Package pdftex.def Info: Figuras/Capa/logoPoli.jpg used on input line 58.
+Package pdftex.def Info: Figuras/Capa/logoPoli.jpg used on input line 57.
 (pdftex.def)             Requested size: 48.3643pt x 42.67642pt.
 
 <Figuras/Capa/icblogo.png, id=92, 126.4725pt x 32.5215pt>
 File: Figuras/Capa/icblogo.png Graphic file (type png)
 
 <use Figuras/Capa/icblogo.png>
-Package pdftex.def Info: Figuras/Capa/icblogo.png used on input line 58.
+Package pdftex.def Info: Figuras/Capa/icblogo.png used on input line 57.
 (pdftex.def)             Requested size: 56.9063pt x 42.68137pt.
 
 <Figuras/Capa/logo_ppges3.png, id=94, 356.0803pt x 246.1697pt>
 File: Figuras/Capa/logo_ppges3.png Graphic file (type png)
 
 <use Figuras/Capa/logo_ppges3.png>
-Package pdftex.def Info: Figuras/Capa/logo_ppges3.png used on input line 58.
+Package pdftex.def Info: Figuras/Capa/logo_ppges3.png used on input line 57.
 (pdftex.def)             Requested size: 156.48564pt x 99.58548pt.
  [2
 
@@ -1558,7 +1558,7 @@ Package pdftex.def Info: Figuras/Capa/logo_ppges3.png used on input line 58.
 
 ] [5
 
-] (./ApresentaDissertaçao.toc)
+] (./ApresentaDissertaçao2.toc)
 [6
 
 ] [7
@@ -1569,7 +1569,7 @@ Package pdftex.def Info: Figuras/Capa/logo_ppges3.png used on input line 58.
 
 ] [10
 
-] (./ApresentaDissertaçao.toc) [11
+] (./ApresentaDissertaçao2.toc) [11
 
 ] [12
 
@@ -1577,130 +1577,250 @@ Package pdftex.def Info: Figuras/Capa/logo_ppges3.png used on input line 58.
 
 ] [14
 
-] [15
-
 ]
-[16
+[15
+
+] [16
 
 ] [17
 
-] <Figuras/BigData/PlanilhaPRF.png, id=640, 884.30376pt x 529.98pt>
+] [18
+
+] [19
+
+]
+<Figuras/BigData/PlanilhaPRF.png, id=703, 884.30376pt x 529.98pt>
 File: Figuras/BigData/PlanilhaPRF.png Graphic file (type png)
 
 <use Figuras/BigData/PlanilhaPRF.png>
-Package pdftex.def Info: Figuras/BigData/PlanilhaPRF.png used on input line 148
+Package pdftex.def Info: Figuras/BigData/PlanilhaPRF.png used on input line 154
 .
 (pdftex.def)             Requested size: 312.97874pt x 113.806pt.
 
-Overfull \hbox (5.68887pt too wide) in paragraph at lines 148--148
+Overfull \hbox (5.68887pt too wide) in paragraph at lines 154--154
  [] 
  []
 
-[18
+[20
 
- <./Figuras/BigData/PlanilhaPRF.png (PNG copy)>] [19
-
-] [20
-
-] [21
+ <./Figuras/BigData/PlanilhaPRF.png (PNG copy)>] [21
 
 ] [22
 
+] [23
+
+] [24
+
 ]
-<Figuras/BigData/appTweeter.png, id=808, 975.645pt x 634.37pt>
+<Figuras/BigData/appTweeter.png, id=869, 975.645pt x 634.37pt>
 File: Figuras/BigData/appTweeter.png Graphic file (type png)
 
 <use Figuras/BigData/appTweeter.png>
-Package pdftex.def Info: Figuras/BigData/appTweeter.png used on input line 177.
+Package pdftex.def Info: Figuras/BigData/appTweeter.png used on input line 180.
 
-(pdftex.def)             Requested size: 227.60925pt x 113.80415pt.
- [23
+(pdftex.def)             Requested size: 227.60925pt x 99.58469pt.
+ [25
 
  <./Figuras/BigData/appTweeter.png (PNG copy)>] <Figuras/BigData/tweetPRF.png, 
-id=841, 1258.7025pt x 497.86pt>
+id=904, 1258.7025pt x 497.86pt>
 File: Figuras/BigData/tweetPRF.png Graphic file (type png)
 
 <use Figuras/BigData/tweetPRF.png>
-Package pdftex.def Info: Figuras/BigData/tweetPRF.png used on input line 189.
+Package pdftex.def Info: Figuras/BigData/tweetPRF.png used on input line 191.
 (pdftex.def)             Requested size: 312.9655pt x 113.80649pt.
 
-Overfull \hbox (5.67563pt too wide) in paragraph at lines 189--189
+Overfull \hbox (5.67563pt too wide) in paragraph at lines 191--191
  [] 
  []
 
-[24
+[26
 
- <./Figuras/BigData/tweetPRF.png (PNG copy)>] [25
-
-] [26
-
-] [27
+ <./Figuras/BigData/tweetPRF.png (PNG copy)>] [27
 
 ] [28
 
-]
-(./ApresentaDissertaçao.toc) [29
+] [29
+
+] [30
 
 ]
-<Figuras/BigData/CrispDM.png, id=1041, 877.2775pt x 557.08125pt>
+(./ApresentaDissertaçao2.toc) [31
+
+]
+<Figuras/BigData/RelacaoCrispKddDm.png, id=1104, 572.1375pt x 358.33875pt>
+File: Figuras/BigData/RelacaoCrispKddDm.png Graphic file (type png)
+
+<use Figuras/BigData/RelacaoCrispKddDm.png>
+Package pdftex.def Info: Figuras/BigData/RelacaoCrispKddDm.png used on input li
+ne 217.
+(pdftex.def)             Requested size: 256.0714pt x 170.71571pt.
+ [32
+
+ <./Figuras/BigData/RelacaoCrispKddDm.png>] <Figuras/BigData/CrispDM.png, id=11
+39, 877.2775pt x 557.08125pt>
 File: Figuras/BigData/CrispDM.png Graphic file (type png)
 
 <use Figuras/BigData/CrispDM.png>
-Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 215.
+Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 225.
 (pdftex.def)             Requested size: 256.07722pt x 170.71281pt.
 
-Overfull \vbox (4.5369pt too high) detected at line 215
+Overfull \vbox (4.5369pt too high) detected at line 225
  []
 
-[30
+[33
 
  <./Figuras/BigData/CrispDM.png>]
-<Figuras/BigData/EntendimentoMini.png, id=1075, 232.87pt x 177.66376pt>
-File: Figuras/BigData/EntendimentoMini.png Graphic file (type png)
+<Figuras/Crisp/Entendimento.png, id=1173, 714.67pt x 435.6275pt>
+File: Figuras/Crisp/Entendimento.png Graphic file (type png)
 
-<use Figuras/BigData/EntendimentoMini.png>
-Package pdftex.def Info: Figuras/BigData/EntendimentoMini.png used on input lin
-e 224.
-(pdftex.def)             Requested size: 56.90262pt x 79.66872pt.
+<use Figuras/Crisp/Entendimento.png>
+Package pdftex.def Info: Figuras/Crisp/Entendimento.png used on input line 233.
 
-<Figuras/BigData/EntendDadosMini.png, id=1076, 231.86626pt x 163.61125pt>
-File: Figuras/BigData/EntendDadosMini.png Graphic file (type png)
+(pdftex.def)             Requested size: 227.61948pt x 165.02168pt.
+ [34
 
-<use Figuras/BigData/EntendDadosMini.png>
-Package pdftex.def Info: Figuras/BigData/EntendDadosMini.png used on input line
- 224.
-(pdftex.def)             Requested size: 56.90501pt x 79.66841pt.
- [31
+ <./Figuras/Crisp/Entendimento.png>]
+<Figuras/Crisp/EntendDados.png, id=1206, 659.46375pt x 421.575pt>
+File: Figuras/Crisp/EntendDados.png Graphic file (type png)
 
- <./Figuras/BigData/EntendimentoMini.png> <./Figuras/BigData/EntendDadosMini.pn
-g>] (./ApresentaDissertaçao.toc)
-[32
+<use Figuras/Crisp/EntendDados.png>
+Package pdftex.def Info: Figuras/Crisp/EntendDados.png used on input line 240.
+(pdftex.def)             Requested size: 227.61586pt x 165.02469pt.
+ [35
 
-])
-Runaway argument?
-\let \AtEndDocument \@firstofone \@enddocumenthook \@checkend {docume\ETC.
-! File ended while scanning use of \beamer@collect@@body.
-<inserted text> 
-                \par 
-<*> ApresentaDissertaçao.tex
-                             
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+ <./Figuras/Crisp/EntendDados.png>]
+<Figuras/Crisp/PreparaDados.png, id=1240, 659.46375pt x 505.89pt>
+File: Figuras/Crisp/PreparaDados.png Graphic file (type png)
 
-! Emergency stop.
-<*> ApresentaDissertaçao.tex
-                             
-*** (job aborted, no legal \end found)
+<use Figuras/Crisp/PreparaDados.png>
+Package pdftex.def Info: Figuras/Crisp/PreparaDados.png used on input line 247.
 
- 
+(pdftex.def)             Requested size: 227.61586pt x 165.02983pt.
+ [36
+
+ <./Figuras/Crisp/PreparaDados.png>]
+<Figuras/Crisp/Model_IA.png, id=1273, 665.48625pt x 404.51125pt>
+File: Figuras/Crisp/Model_IA.png Graphic file (type png)
+
+<use Figuras/Crisp/Model_IA.png>
+Package pdftex.def Info: Figuras/Crisp/Model_IA.png used on input line 254.
+(pdftex.def)             Requested size: 227.61287pt x 165.02975pt.
+ [37
+
+ <./Figuras/Crisp/Model_IA.png>]
+<Figuras/Crisp/Avaliacao.png, id=1307, 665.48625pt x 314.17375pt>
+File: Figuras/Crisp/Avaliacao.png Graphic file (type png)
+
+<use Figuras/Crisp/Avaliacao.png>
+Package pdftex.def Info: Figuras/Crisp/Avaliacao.png used on input line 261.
+(pdftex.def)             Requested size: 227.61287pt x 165.02518pt.
+ [38
+
+ <./Figuras/Crisp/Avaliacao.png>]
+<Figuras/Crisp/Implantacao.png, id=1340, 665.48625pt x 393.47pt>
+File: Figuras/Crisp/Implantacao.png Graphic file (type png)
+
+<use Figuras/Crisp/Implantacao.png>
+Package pdftex.def Info: Figuras/Crisp/Implantacao.png used on input line 268.
+(pdftex.def)             Requested size: 227.61287pt x 165.02211pt.
+ [39
+
+ <./Figuras/Crisp/Implantacao.png>]
+(./ApresentaDissertaçao2.toc) [40
+
+]
+<Figuras/BigData/Fayyad.png, id=1410, 794.97pt x 305.14pt>
+File: Figuras/BigData/Fayyad.png Graphic file (type png)
+
+<use Figuras/BigData/Fayyad.png>
+Package pdftex.def Info: Figuras/BigData/Fayyad.png used on input line 286.
+(pdftex.def)             Requested size: 284.52713pt x 85.35945pt.
+
+Overfull \vbox (12.32733pt too high) detected at line 286
+ []
+
+[41
+
+ <./Figuras/BigData/Fayyad.png>]
+File: Figuras/BigData/Fayyad.png Graphic file (type png)
+ <use Figuras/BigData/Fayyad.png>
+Package pdftex.def Info: Figuras/BigData/Fayyad.png used on input line 286.
+(pdftex.def)             Requested size: 284.52713pt x 85.35945pt.
+
+Overfull \vbox (12.32733pt too high) detected at line 286
+ []
+
+[42
+
+]
+File: Figuras/BigData/Fayyad.png Graphic file (type png)
+ <use Figuras/BigData/Fayyad.png>
+Package pdftex.def Info: Figuras/BigData/Fayyad.png used on input line 286.
+(pdftex.def)             Requested size: 284.52713pt x 85.35945pt.
+
+Overfull \vbox (12.32733pt too high) detected at line 286
+ []
+
+[43
+
+] (./ApresentaDissertaçao2.toc) [44
+
+]
+<Figuras/BigData/InterfaceGrafica.png, id=1547, 608.2725pt x 403.5075pt>
+File: Figuras/BigData/InterfaceGrafica.png Graphic file (type png)
+
+<use Figuras/BigData/InterfaceGrafica.png>
+Package pdftex.def Info: Figuras/BigData/InterfaceGrafica.png used on input lin
+e 299.
+(pdftex.def)             Requested size: 284.53302pt x 128.03523pt.
+ [45
+
+ <./Figuras/BigData/InterfaceGrafica.png>]
+\tf@nav=\write6
+\openout6 = `ApresentaDissertaçao2.nav'.
+
+\tf@toc=\write7
+\openout7 = `ApresentaDissertaçao2.toc'.
+
+\tf@snm=\write8
+\openout8 = `ApresentaDissertaçao2.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+ (./ApresentaDissertaçao2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Package rerunfilecheck Info: File `ApresentaDissertaçao2.out' has not changed.
+
+(rerunfilecheck)             Checksum: 071F1A9BABCFF636B8E8D79813487CFF;288.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1061 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 20606 strings out of 494790
- 381973 string characters out of 6174858
- 467313 words of memory out of 5000000
- 23386 multiletter control sequences out of 15000+600000
+ 20679 strings out of 494790
+ 383070 string characters out of 6174858
+ 469318 words of memory out of 5000000
+ 23421 multiletter control sequences out of 15000+600000
  6345 words of font info for 23 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
- 56i,20n,65p,418b,3967s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 56i,20n,65p,419b,4072s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmss12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb>
+Output written on ApresentaDissertaçao2.pdf (45 pages, 999584 bytes).
+PDF statistics:
+ 1620 PDF objects out of 1728 (max. 8388607)
+ 1505 compressed objects within 16 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+
