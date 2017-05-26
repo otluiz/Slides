@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {brazil}
+\beamer@sectionintoc {1}{ Introdu\IeC {\c c}\IeC {\~a}o}{6}{0}{1}
+\beamer@sectionintoc {2}{ Objetivos}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{ Objetivo Principal}{12}{0}{2}
+\beamer@sectionintoc {3}{ Metodologia de Minera\IeC {\c c}\IeC {\~a}o Dados}{29}{0}{3}
+\beamer@sectionintoc {4}{Minera\IeC {\c c}\IeC {\~a}o de Dados}{31}{0}{4}
+\beamer@sectionintoc {5}{ Trabalhos Futuros}{34}{0}{5}
