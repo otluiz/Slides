@@ -4,4 +4,6 @@
 \beamer@sectionintoc {2}{ Objetivos}{11}{0}{2}
 \beamer@sectionintoc {3}{ Metodologias de Minera\IeC {\c c}\IeC {\~a}o Dados}{31}{0}{3}
 \beamer@sectionintoc {4}{KDD e Minera\IeC {\c c}\IeC {\~a}o de Dados}{40}{0}{4}
-\beamer@sectionintoc {5}{ Trabalhos Futuros}{44}{0}{5}
+\beamer@sectionintoc {5}{ Tecnologias empregues na Minera\IeC {\c c}\IeC {\~a}o Dados}{44}{0}{5}
+\beamer@sectionintoc {6}{ Minera\IeC {\c c}\IeC {\~a}o em Textos}{48}{0}{6}
+\beamer@sectionintoc {7}{ Trabalhos Futuros}{51}{0}{7}
