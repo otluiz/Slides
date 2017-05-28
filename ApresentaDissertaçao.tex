@@ -1,22 +1,22 @@
 \documentclass[11pt]{beamer}
+\usepackage{tikz}
+\setbeamertemplate{background canvas}{\begin{tikzpicture}\node[opacity=.1]{\includegraphics
+		[width=\paperwidth]{Figuras/Capa/CirgMOdelo.png}};\end{tikzpicture}}
 \usetheme{Warsaw}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}  % idioma
 \usepackage{amsmath,amsfonts,amssymb,textcomp}
 \usepackage{graphicx}
 \usepackage{subfigure}
-
+\usepackage{mathtools}
 \usepackage[lined]{algorithm2e}
 
-% Configurando layout para mostrar codigos C++
-\usepackage{listings}
-%\usepackage{minted}
-%pdflatex -shell-escape minted01.tex
-%ou
-%latexmk -pdf -shell-escape minted01.tex
+
+%% Colocando numeração nos Slides
+
 
 \author{ Othon Luiz Teixeira de Oliveira }
-\title[PPGES]{Defesa da Dissertação de Mestrado}
+\title[PPGES]{Defesa de Mestrado}
 %\setbeamercovered{transparent} 
 %\setbeamertemplate{navigation symbols}{} 
 %\logo{} 
@@ -29,6 +29,7 @@
 \begin{frame}
 	\titlepage
 \end{frame}
+
 
 % Capa - requer o TikZ
 \newcommand{\capa}{
@@ -56,7 +57,8 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}\frametitle{ \Large Programa de Pós-Graduação em Engenharia de Sistemas}
+\begin{frame}
+	\frametitle{ \Large Programa de Pós-Graduação em Engenharia de Sistemas}
 	\begin{center}
 		\Large \textbf{DISSERTAÇÃO DE MESTRADO} 
 	\end{center}
@@ -74,16 +76,28 @@
 	
 \end{frame}
 
-%%% Colocando o sumário em cada início de sessão
+%%% Colocando o sumário em cada início de Sessão
 \AtBeginSection[]{ 
 	\begin{frame} 
-		\frametitle{Sumário} \tableofcontents[currentsection] 
+		\frametitle{Sumário} \tableofcontents[currentsection, hideothersubsections] 
 	\end{frame} 
 } 
+%%% Colocando o sumário em cada início de Subsessão
+\AtBeginSubsection[ ]{
+	\begin{frame}{Organização}
+		\tableofcontents[currentsection,currentsubsection]
+	\end{frame}
+}
+
+
+%% Adiciona numeração a partir daqui, porém não parte do zero
+\addtocounter{framenumber}{-1}
+\setbeamertemplate
+ {footline}{\quad\hfill\insertframenumber/\inserttotalframenumber\strut\quad} 
 
 %+++++++++++++++++++++++++++++++++++++++++++++++
 \section{ Introdução}
-\subsection*{Introdução}
+\subsection{Introdução}
 
 
 \begin{frame}\frametitle{Resumo}	
@@ -100,9 +114,11 @@
 	\end{block}
 \end{frame}
 
+
+
 %--------------------------------------------------------
-\section{ Objetivos}
-\subsection*{ Principal}
+%\section{ Objetivos}
+\subsection{ Objetivos}
 
 \begin{frame}\frametitle{Proposição de um modelo preditivo}
 	\pause
@@ -119,31 +135,34 @@
 	\begin{block}{ Quatro objetivos}
 		\begin{itemize}
 			\item Caracterizar a problemática de cada rodovia;
-
+			\pause
 			\item Desenvolver um modelo preditivo dos fenômenos que envolvem as rodovias;
-
+			\pause
 			\item Desenvolver um ambiente de simulações interativas da estrutura viária em sua dinâmica
-			
+			\pause			
 			\item Propor soluções para melhorar a experiência dos usuários que utilizam as rodovias pernambucanas
 		\end{itemize}
 		
 	\end{block}
 \end{frame}
 
-\begin{frame}\frametitle{PRF}
+\section{Background}
+\subsection{Dados a minerar}
+
+\begin{frame}\frametitle{Dados originais da PRF}
 	%	\begin{block}{PRF & Twitter}
 	\begin{itemize}
 		\item Base de dados da Polícia Rodoviária Federal: acidente e interdições, entre 2007 a 2015.
 		\pause
-		\item Rede Social Twitter com 3200 tweets (limite permitido)
+		\item Rede Social Twitter com 3200 tweets (limite permitido), de 2017 a 2014
 	\end{itemize}	
 	%	\end{block}
 \end{frame}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{frame}\frametitle{ Dados originais}
-	\transboxin[duration=2, direction=25]	
+\begin{frame}\frametitle{ Planilha com os dados originais}
+	\transboxin[duration=1, direction=25]	
 	\begin{block}{ Planilha PRF}
 		\begin{figure}[!ht]
 			\centering %\centering % para centralizarmos a figura
@@ -154,17 +173,17 @@
 \end{frame}
 
 
-\begin{frame}\frametitle{ Entendendo a base de dados da PRF}
+\begin{frame}
+	\frametitle{ Entendendo a base de dados da PRF}
 	\begin{exampleblock}{ Atributos e Instâncias -- iniciais}
 		\begin{itemize}
 			\item Dados de 2007 à 2015 -- BRs de Pernambuco
 			\pause
 			\item 85.209 Instâncias -- 27 Atributos
 			\pause
-			\item Dentre eles: Km, Latitude, Longitude, Condições da Pista, Causa do Acidente, Município, Data, Hora, Tipo de Veículo, 
+			\item Dentre eles: Km, Latitude, Longitude, Condições da Pista, Causa do Acidente, Município, Data, Hora, Tipo de Veículo, Quantidade de Mortos, etc.
 			\pause
-			\item Qtd de Feridos Graves,Qtd Feridos Leves, Qtd Mortos, Qtd Pessoas.
-			
+			\item 40\% missing data -- 70\% do tempo total para tratar
 		\end{itemize}
 	\end{exampleblock}
 \end{frame}
@@ -206,8 +225,8 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{ Metodologias de Mineração Dados}
-\subsection*{ CRISP -- DM}
+%\section{ }
+\subsection{ Metodologias de Mineração Dados --- CRISP -- DM}
 
 \begin{frame}\frametitle{ Domínio das técnicas de Mineração de Dados}
 	\transdissolve[duration=2, direction=25]
@@ -267,17 +286,13 @@
 	\end{figure}
 \end{frame}
 
-\section{KDD e Mineração de Dados}
-\subsection*{ Minerando os dados do problema}
+%\section{KDD e Mineração de Dados}
+\subsection{ Minerando os dados do problema}
 
 \begin{frame}\frametitle{ A descoberta de conhecimento (KDD) nas bases da PRF}
 	\begin{figure}[!ht]
 		%	\centering %\centering % para centralizarmos a figura
 		\includegraphics[width=100mm, height=30mm]{Figuras/BigData/Fayyad.png}
-		\pause
-		\begin{block}{ A base de dados original -- PRF}			
-			40\% missing data -- 70\% do tempo total para tratar
-		\end{block}
 		\pause
 		\begin{alertblock}{ Diferencça CRISP--DM --- KDD}			
 			O CRISP-DM difere do KDD principalmente pelas fases do entendimento do  negócio (anterior ao KDD) e da implantação (posterior ao KDD)
@@ -288,66 +303,168 @@
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{ Tecnologias empregues na Mineração Dados}
-\subsection*{ Árvore de Decisão}
+%\section{ Tecnologias empregues na Mineração Dados}
+\subsection{ Árvore de Decisão}
 
-\begin{frame}\frametitle{ Domínio das técnicas de Mineração de Dados}
-	\transdissolve[duration=2, direction=25]
-	\begin{figure}[!ht]
-		\includegraphics[width=90mm, height=60mm]{Figuras/BigData/RelacaoCrispKddDm.png}
-	\end{figure}
+\begin{frame}\frametitle{ A escolha}
+	\begin{exampleblock}{Pontos fortes}
+		\begin{itemize}
+			\item Custo benefício -- Uma árvore é gerada de maneira simples com resultados abrangente e facilidade de interpretação.
+			\pause
+			\item Permite fazer predição e classificação intantâneas
+		\end{itemize}
+	\end{exampleblock}
+	\pause
+	\begin{alertblock}{Pontos fracos}
+		\begin{itemize}
+			\item Nó raiz não é facilmente identificável
+			\pause
+			\item Vários testes até se conseguir resultados satisfatórios		
+		\end{itemize}
+	\end{alertblock}
 \end{frame}
 
 
-\subsection*{ Naïve Bayes}
-
-\begin{frame}\frametitle{ Domínio das técnicas de Mineração de Dados}
-	\transdissolve[duration=2, direction=25]
-	\begin{figure}[!ht]
-		\includegraphics[width=90mm, height=60mm]{Figuras/BigData/RelacaoCrispKddDm.png}
-	\end{figure}
+\begin{frame}\frametitle{ Cálculo da Entropia e Entropia Condicional}
+	\transdissolve[duration=1, direction=25]
+	\centering{Equação da entropia}
+	\begin{equation}
+	H_{x}=-\sum_{\forall x \in X}P(x)log_{2}P(x)
+	\end{equation}
+	\centering{Equação da entropia condicional}
+	\begin{equation}
+	H_{Y|X}= \sum_{x}P(x)H(Y|X=x) =-\sum_{\forall x \in X}P(x) \sum_{\forall y \in Y}P(y|x)log_{2}P(y|x)
+	\end{equation}
 \end{frame}
 
-\subsection*{ Redes Neurais}
 
-\begin{frame}\frametitle{ Domínio das técnicas de Mineração de Dados}
-	\transdissolve[duration=2, direction=25]
+\subsection{ Naïve Bayes}
+
+\begin{frame}\frametitle{ Teorema de Bayes e Aprendizagem bayesiana}
+	\transdissolve[duration=1, direction=25]
+	\centering{Teorema de Bayes: forma tradicional}
+	\begin{equation}
+	p(C_{k}|x) = \frac{p(_{k})p(x|C_{k})}{p(x)}
+	\end{equation}
+	
+	\centering{Teorema de Bayes: forma simplificada}
+	\begin{equation}
+	p(posteriori) = \frac{p(priori) * {\text{verossimilhança}}}{\text{evidência}}
+	\end{equation}
+\end{frame}
+
+\subsection{ Redes Neurais}
+
+\begin{frame}\frametitle{ Classificação com Redes Neurais}
+	\transdissolve[duration=1, direction=25]
+	Rede Nerual com três camadas identificadas
+	\begin{itemize}
+		\item Camada de entrada: apresenta-se os padrões à rede
+		\item Camada intermediária (ocultas): realiza a maior parte do processamento por conexões ponderadas
+		\item Camada de saída: conclusão e apresentação do resultado.
+	\end{itemize}
 	\begin{figure}[!ht]
-		\includegraphics[width=90mm, height=60mm]{Figuras/BigData/RelacaoCrispKddDm.png}
+		\includegraphics[width=80mm, height=40mm]{Figuras/BigData/camdasIntermediarias.png}
 	\end{figure}
 \end{frame}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{ Mineração em Textos}
-\subsection*{ Tecnologias empregues na Mineração em Textos}
+%\section{ Mineração em Textos}
+\subsection{ Tecnologias empregues na Mineração em Textos}
 
 \begin{frame}\frametitle{ TF -- IDF}
-	\transdissolve[duration=2, direction=25]
+	\transdissolve[duration=1, direction=25]
+	 \centering{Text Frequence X Inverse Document Frequence: $TF * IDF$}
+	\begin{equation}
+		idf(term) = \ln(\frac{n_{documents}}{n_{documents\  containing \ term}})
+	\end{equation}
+	\pause
 	\begin{figure}[!ht]
-		\includegraphics[width=90mm, height=60mm]{Figuras/BigData/RelacaoCrispKddDm.png}
+	 		\includegraphics[width=70mm, height=40mm]{Figuras/BigData/ferqPalavrasG.png}
 	\end{figure}
 \end{frame}
 
+\begin{frame}\frametitle{ Análise de Desempenho aplicados à mineração}
 
-\begin{frame}\frametitle{ K-means para Agrupamentos dos dados}
-	\transdissolve[duration=2, direction=25]
-	\begin{figure}[!ht]
-		\includegraphics[width=90mm, height=60mm]{Figuras/BigData/RelacaoCrispKddDm.png}
-	\end{figure}
+	A área sob a curva AUC (Area under ROC -- Reciver Operating Characeteristic) é uma métrica que determina a qualidade do classificador.
+	Ela é calculada cruzando-se verdadeiros positivos com os falso positivos. 
+	Esta área varia entre zero e um, quanto mais próximo de 1(um) o classificador conseguiu acertar mais vezes do que errar.
+	A seguir a Matriz de Contingência (ou confusão) que agrupa essas atributos.
+	%tabela 5
+	\begin{table}[ht]
+		\centering
+		\caption{Matriz de Confusão}
+		\vspace{1mm}
+		\begin{tabular}{l|c|c}
+			\hline
+			\textbf{} & \textbf{Predito} & \textbf{}\\
+			\hline
+			\textbf{Real}  & TP   FN & Positive -- POS\\
+			\textbf{Real}  & FP   TN & Negative -- NEG\\
+			\hline
+			---         & PP   PN &    ---         \\
+		\end{tabular}
+		\\
+		\tiny Fonte: Bradley -- 1997
+	\end{table}
 \end{frame}
 
+\begin{frame}\frametitle{ Análise de Desempenho aplicados à mineração}
+	
+	A Matriz Modelo de Confusão sintetiza a Matriz de Confusão
+%tabela 6
+\begin{table}[ht]
+	\centering
+	\caption{Matriz modelo de Confusão}
+	\vspace{1mm}
+	\begin{tabular}{l|c|c}
+		\hline
+		\textbf{}           & \textbf{Y}     \textbf{$\bar{Y}$}   & \textbf{}\\
+		\hline
+		\textbf{X}          & P(X,Y)         P(X,$\bar{Y}$)       & Positive -- POS\\
+		\textbf{$\bar{X}$}  & P($\bar{X}$,Y) P($\bar{X},\bar{Y}$) & Negative -- NEG\\
+		\hline
+		---              & P(Y)           P($\bar{Y}$)         &     ---        \\
+	\end{tabular}
+	\\
+	\tiny Fonte: Bradley -- 1997
+\end{table}
+
+ Para construir a curva ROC utiliza-se as probabilidades condicionais cruzando-se a taxa de verdadeiros positivos ($ tpr = P(Y|X)$) probabilidade de falsos alarmes ou taxa de falsos positivos será ($ fpr = P(Y,\bar{X})$),
+ 
+ 
+\end{frame}
+
+\section{Contribuição}
+
+
+\section{Resultados}
+
+\section{Conclusões}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{ Trabalhos Futuros}
-\begin{frame}\frametitle{Trabalhos futuros}
+\section{Extras}
+\subsection{Trabalhos futuros}
+
+\begin{frame}\frametitle{ Aplicativo}
 \transboxout[duration=2, direction=25]
 	\begin{figure}[ht]
 		\centering
-		\caption{ Interface Gráfica Proposta}
-		\includegraphics[width=100mm, height=45mm]{Figuras/BigData/InterfaceGrafica.png}
+		\includegraphics[width=100mm, height=45mm]{Figuras/Extras/InterfaceGrafica.png}
+		\caption{ Interface Gráfica Proposta}		
 	\end{figure}
-	
+\end{frame}
+
+\subsection{Artigos aprovados em eventos} 
+\begin{frame}\frametitle{ Artigo aprovado em evento internacional}
+	\transboxout[duration=1, direction=25]
+	\centering{ANÁLISE DE COMPORTAMENTO RODOVIÁRIO NA REGIÃO METROPOLITANA DO RECIFE-BRASIL -- UMA ABORDAGEM DE MINERAÇÃO DE DADOS}
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=80mm, height=25mm]{Figuras/Extras/Cisti122.png}
+		\caption{ CISTI -- Conf. Ibérica de Sistemas e Tecnologia da Informação}
+	\end{figure}
 \end{frame}
 
 \end{document}

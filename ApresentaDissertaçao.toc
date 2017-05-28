@@ -1,0 +1,19 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {brazil}
+\beamer@sectionintoc {1}{ Introdu\IeC {\c c}\IeC {\~a}o}{6}{0}{1}
+\beamer@subsectionintoc {1}{1}{Introdu\IeC {\c c}\IeC {\~a}o}{7}{0}{1}
+\beamer@subsectionintoc {1}{2}{ Objetivos}{12}{0}{1}
+\beamer@sectionintoc {2}{Background}{22}{0}{2}
+\beamer@subsectionintoc {2}{1}{Dados a minerar}{23}{0}{2}
+\beamer@subsectionintoc {2}{2}{ Metodologias de Minera\IeC {\c c}\IeC {\~a}o Dados --- CRISP -- DM}{37}{0}{2}
+\beamer@subsectionintoc {2}{3}{ Minerando os dados do problema}{46}{0}{2}
+\beamer@subsectionintoc {2}{4}{ \IeC {\'A}rvore de Decis\IeC {\~a}o}{49}{0}{2}
+\beamer@subsectionintoc {2}{5}{ Na\IeC {\"\i }ve Bayes}{55}{0}{2}
+\beamer@subsectionintoc {2}{6}{ Redes Neurais}{57}{0}{2}
+\beamer@subsectionintoc {2}{7}{ Tecnologias empregues na Minera\IeC {\c c}\IeC {\~a}o em Textos}{59}{0}{2}
+\beamer@sectionintoc {3}{Contribui\IeC {\c c}\IeC {\~a}o}{64}{0}{3}
+\beamer@sectionintoc {4}{Resultados}{65}{0}{4}
+\beamer@sectionintoc {5}{Conclus\IeC {\~o}es}{66}{0}{5}
+\beamer@sectionintoc {6}{Extras}{67}{0}{6}
+\beamer@subsectionintoc {6}{1}{Trabalhos futuros}{68}{0}{6}
+\beamer@subsectionintoc {6}{2}{Artigos aprovados em eventos}{70}{0}{6}
