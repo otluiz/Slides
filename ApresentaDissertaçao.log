@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  28 MAY 2017 00:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.1)  28 MAY 2017 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1397,7 +1397,11 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count174
 \algocf@algoframe=\box64
 \algocf@algobox=\box65
-) (./ApresentaDissertaçao.aux)
+) (./ApresentaDissertaçao.aux
+
+LaTeX Warning: Label `fig:MatrizMortos2D' multiply defined.
+
+)
 \openout1 = `ApresentaDissertaçao.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -1416,8 +1420,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 26.
@@ -1584,7 +1587,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 26.
 
 (./ApresentaDissertaçao.nav)
-<Figuras/Capa/CirgMOdelo.png, id=96, 769.87625pt x 577.15625pt>
+<Figuras/Capa/CirgMOdelo.png, id=132, 769.87625pt x 577.15625pt>
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 
 <use Figuras/Capa/CirgMOdelo.png>
@@ -1610,7 +1613,7 @@ onverted-to.pdf Figuras/Capa/upelogo.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figuras/Capa/upelogo-eps-converted-to.pdf, id=144, 195.73125pt x 127.47626pt>
+<Figuras/Capa/upelogo-eps-converted-to.pdf, id=180, 195.73125pt x 127.47626pt>
 File: Figuras/Capa/upelogo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figuras/Capa/upelogo-eps-converted-to.pdf>
@@ -1618,28 +1621,28 @@ Package pdftex.def Info: Figuras/Capa/upelogo-eps-converted-to.pdf used on inpu
 t line 58.
 (pdftex.def)             Requested size: 45.52197pt x 36.98856pt.
 
-<Figuras/Capa/logoPoli.jpg, id=145, 463.7325pt x 301.125pt>
+<Figuras/Capa/logoPoli.jpg, id=181, 463.7325pt x 301.125pt>
 File: Figuras/Capa/logoPoli.jpg Graphic file (type jpg)
 
 <use Figuras/Capa/logoPoli.jpg>
 Package pdftex.def Info: Figuras/Capa/logoPoli.jpg used on input line 58.
 (pdftex.def)             Requested size: 48.3643pt x 42.67642pt.
 
-<Figuras/Capa/icblogo.png, id=146, 126.4725pt x 32.5215pt>
+<Figuras/Capa/icblogo.png, id=182, 126.4725pt x 32.5215pt>
 File: Figuras/Capa/icblogo.png Graphic file (type png)
 
 <use Figuras/Capa/icblogo.png>
 Package pdftex.def Info: Figuras/Capa/icblogo.png used on input line 58.
 (pdftex.def)             Requested size: 56.9063pt x 42.68137pt.
 
-<Figuras/Capa/logo_ppges3.png, id=147, 356.0803pt x 246.1697pt>
+<Figuras/Capa/logo_ppges3.png, id=183, 356.0803pt x 246.1697pt>
 File: Figuras/Capa/logo_ppges3.png Graphic file (type png)
 
 <use Figuras/Capa/logo_ppges3.png>
 Package pdftex.def Info: Figuras/Capa/logo_ppges3.png used on input line 58.
 (pdftex.def)             Requested size: 156.48564pt x 99.58548pt.
 
-Overfull \vbox (8.22586pt too high) detected at line 58
+Overfull \vbox (14.72583pt too high) detected at line 58
  []
 
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
@@ -1673,7 +1676,7 @@ Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 77.
 [5
 
 ] (./ApresentaDissertaçao.toc)
-Overfull \vbox (17.69926pt too high) detected at line 99
+Overfull \vbox (24.19923pt too high) detected at line 99
  []
 
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
@@ -1682,15 +1685,20 @@ Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 99.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
  [6
 
-] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 100
- []
-
+]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 100.
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 115.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [7
+
+[7
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 115.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [8
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
@@ -1698,37 +1706,27 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 115.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
-[8
+[9
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 115.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [9
+ [10
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 115.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 131.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
-[10
+[11
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 115.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [11
-
-] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 121
- []
-
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 121.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 131.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
  [12
 
@@ -1750,7 +1748,7 @@ Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 131.
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 131.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 147.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
 [15
@@ -1758,7 +1756,7 @@ Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 131.
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 131.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 147.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
  [16
 
@@ -1785,58 +1783,33 @@ Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 147.
 
 [19
 
-]
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 147.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [20
-
-]
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 147.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
-
-[21
-
 ] (./ApresentaDissertaçao.toc)
-Overfull \vbox (85.6993pt too high) detected at line 149
+Overfull \vbox (105.79927pt too high) detected at line 149
  []
 
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 149.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [20
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 160.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[21
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 160.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
  [22
 
-] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 150
- []
-
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 150.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [23
-
 ]
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 160.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
-
-[24
-
-]
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 160.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [25
-
-]
-<Figuras/BigData/PlanilhaPRF.png, id=1067, 884.30376pt x 529.98pt>
+<Figuras/BigData/PlanilhaPRF.png, id=947, 884.30376pt x 529.98pt>
 File: Figuras/BigData/PlanilhaPRF.png Graphic file (type png)
 
 <use Figuras/BigData/PlanilhaPRF.png>
@@ -1848,13 +1821,40 @@ Overfull \hbox (5.68887pt too wide) in paragraph at lines 173--173
  [] 
  []
 
+
+Overfull \vbox (2.8086pt too high) detected at line 173
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 173.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [26
+ [23
 
  <./Figuras/BigData/PlanilhaPRF.png (PNG copy)>]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 189.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [24
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 189.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [25
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 189.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[26
+
+]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 189.
@@ -1862,30 +1862,7 @@ Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 189.
  [27
 
 ]
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 189.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [28
-
-]
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 189.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
-
-[29
-
-]
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 189.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [30
-
-]
-<Figuras/BigData/appTweeter.png, id=1264, 975.645pt x 634.37pt>
+<Figuras/BigData/appTweeter.png, id=1150, 975.645pt x 634.37pt>
 File: Figuras/BigData/appTweeter.png Graphic file (type png)
 
 <use Figuras/BigData/appTweeter.png>
@@ -1896,10 +1873,10 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 199.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [31
+ [28
 
  <./Figuras/BigData/appTweeter.png (PNG copy)>]
-<Figuras/BigData/tweetPRF.png, id=1304, 1258.7025pt x 497.86pt>
+<Figuras/BigData/tweetPRF.png, id=1190, 1258.7025pt x 497.86pt>
 File: Figuras/BigData/tweetPRF.png Graphic file (type png)
 
 <use Figuras/BigData/tweetPRF.png>
@@ -1910,18 +1887,22 @@ Overfull \hbox (5.67563pt too wide) in paragraph at lines 210--210
  [] 
  []
 
+
+Overfull \vbox (2.80908pt too high) detected at line 210
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 210.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [32
+ [29
 
  <./Figuras/BigData/tweetPRF.png (PNG copy)>]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 224.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [33
+ [30
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
@@ -1929,14 +1910,14 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 224.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
-[34
+[31
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 224.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [35
+ [32
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
@@ -1944,142 +1925,149 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 224.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
-[36
-
-] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 229
- []
-
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 229.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [37
+[33
 
 ]
-<Figuras/BigData/RelacaoCrispKddDm.png, id=1553, 572.1375pt x 358.33875pt>
+<Figuras/BigData/RelacaoCrispKddDm.png, id=1387, 572.1375pt x 358.33875pt>
 File: Figuras/BigData/RelacaoCrispKddDm.png Graphic file (type png)
 
 <use Figuras/BigData/RelacaoCrispKddDm.png>
 Package pdftex.def Info: Figuras/BigData/RelacaoCrispKddDm.png used on input li
 ne 236.
 (pdftex.def)             Requested size: 256.0714pt x 170.71571pt.
+
+Overfull \vbox (6.0397pt too high) detected at line 236
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
+<use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 236.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [34
 
-[38
-
- <./Figuras/BigData/RelacaoCrispKddDm.png>]
-<Figuras/BigData/CrispDM.png, id=1593, 877.2775pt x 557.08125pt>
+ <./Figuras/BigData/RelacaoCrispKddDm.png>] <Figuras/BigData/CrispDM.png, id=14
+29, 877.2775pt x 557.08125pt>
 File: Figuras/BigData/CrispDM.png Graphic file (type png)
 
 <use Figuras/BigData/CrispDM.png>
 Package pdftex.def Info: Figuras/BigData/CrispDM.png used on input line 244.
 (pdftex.def)             Requested size: 256.07722pt x 170.71281pt.
 
-Overfull \vbox (17.53683pt too high) detected at line 244
+Overfull \vbox (24.0368pt too high) detected at line 244
  []
 
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 244.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [39
+ [35
 
  <./Figuras/BigData/CrispDM.png>]
-<Figuras/Crisp/Entendimento.png, id=1633, 714.67pt x 435.6275pt>
+<Figuras/Crisp/Entendimento.png, id=1471, 714.67pt x 435.6275pt>
 File: Figuras/Crisp/Entendimento.png Graphic file (type png)
 
 <use Figuras/Crisp/Entendimento.png>
 Package pdftex.def Info: Figuras/Crisp/Entendimento.png used on input line 252.
 
 (pdftex.def)             Requested size: 227.61948pt x 165.02168pt.
+
+Overfull \vbox (0.34567pt too high) detected at line 252
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
+<use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 252.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [40
+ [36
 
  <./Figuras/Crisp/Entendimento.png>]
-<Figuras/Crisp/EntendDados.png, id=1673, 659.46375pt x 421.575pt>
+<Figuras/Crisp/EntendDados.png, id=1511, 659.46375pt x 421.575pt>
 File: Figuras/Crisp/EntendDados.png Graphic file (type png)
 
 <use Figuras/Crisp/EntendDados.png>
 Package pdftex.def Info: Figuras/Crisp/EntendDados.png used on input line 259.
 (pdftex.def)             Requested size: 227.61586pt x 165.02469pt.
+
+Overfull \vbox (0.34868pt too high) detected at line 259
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
+<use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 259.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [41
+ [37
 
  <./Figuras/Crisp/EntendDados.png>]
-<Figuras/Crisp/PreparaDados.png, id=1712, 659.46375pt x 505.89pt>
+<Figuras/Crisp/PreparaDados.png, id=1552, 659.46375pt x 505.89pt>
 File: Figuras/Crisp/PreparaDados.png Graphic file (type png)
 
 <use Figuras/Crisp/PreparaDados.png>
 Package pdftex.def Info: Figuras/Crisp/PreparaDados.png used on input line 266.
 
 (pdftex.def)             Requested size: 227.61586pt x 165.02983pt.
+
+Overfull \vbox (0.35382pt too high) detected at line 266
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
+<use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 266.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [42
+ [38
 
  <./Figuras/Crisp/PreparaDados.png>]
-<Figuras/Crisp/Model_IA.png, id=1751, 665.48625pt x 404.51125pt>
+<Figuras/Crisp/Model_IA.png, id=1593, 665.48625pt x 404.51125pt>
 File: Figuras/Crisp/Model_IA.png Graphic file (type png)
 
 <use Figuras/Crisp/Model_IA.png>
 Package pdftex.def Info: Figuras/Crisp/Model_IA.png used on input line 273.
 (pdftex.def)             Requested size: 227.61287pt x 165.02975pt.
+
+Overfull \vbox (0.35374pt too high) detected at line 273
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
+<use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 273.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [43
+ [39
 
  <./Figuras/Crisp/Model_IA.png>]
-<Figuras/Crisp/Avaliacao.png, id=1792, 665.48625pt x 314.17375pt>
+<Figuras/Crisp/Avaliacao.png, id=1633, 665.48625pt x 314.17375pt>
 File: Figuras/Crisp/Avaliacao.png Graphic file (type png)
 
 <use Figuras/Crisp/Avaliacao.png>
 Package pdftex.def Info: Figuras/Crisp/Avaliacao.png used on input line 280.
 (pdftex.def)             Requested size: 227.61287pt x 165.02518pt.
+
+Overfull \vbox (0.34917pt too high) detected at line 280
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
+<use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 280.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [44
+ [40
 
  <./Figuras/Crisp/Avaliacao.png>]
-<Figuras/Crisp/Implantacao.png, id=1830, 665.48625pt x 393.47pt>
+<Figuras/Crisp/Implantacao.png, id=1672, 665.48625pt x 393.47pt>
 File: Figuras/Crisp/Implantacao.png Graphic file (type png)
 
 <use Figuras/Crisp/Implantacao.png>
 Package pdftex.def Info: Figuras/Crisp/Implantacao.png used on input line 287.
 (pdftex.def)             Requested size: 227.61287pt x 165.02211pt.
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 287.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [45
 
- <./Figuras/Crisp/Implantacao.png>] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 290
+Overfull \vbox (0.3461pt too high) detected at line 287
  []
 
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 290.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 287.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [46
+ [41
 
-]
-<Figuras/BigData/Fayyad.png, id=1925, 794.97pt x 305.14pt>
+ <./Figuras/Crisp/Implantacao.png>]
+<Figuras/BigData/Fayyad.png, id=1712, 794.97pt x 305.14pt>
 File: Figuras/BigData/Fayyad.png Graphic file (type png)
 
 <use Figuras/BigData/Fayyad.png>
@@ -2089,7 +2077,7 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 301.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [47
+ [42
 
  <./Figuras/BigData/Fayyad.png>]
 File: Figuras/BigData/Fayyad.png Graphic file (type png)
@@ -2101,17 +2089,7 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 301.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [48
-
-] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 307
- []
-
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 307.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [49
+ [43
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
@@ -2119,14 +2097,14 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 325.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
-[50
+[44
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 325.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [51
+ [45
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
@@ -2134,14 +2112,14 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 325.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
-[52
+[46
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 325.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [53
+ [47
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 338.
@@ -2179,17 +2157,7 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 338.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [54
-
-] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 341
- []
-
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 341.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [55
+ [48
 
 ]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
@@ -2197,20 +2165,10 @@ File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 354.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
-[56
-
-] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 356
- []
-
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 356.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [57
+[49
 
 ]
-<Figuras/BigData/camdasIntermediarias.png, id=2408, 503.8825pt x 286.06876pt>
+<Figuras/BigData/camdasIntermediarias.png, id=2037, 503.8825pt x 286.06876pt>
 File: Figuras/BigData/camdasIntermediarias.png Graphic file (type png)
 
 <use Figuras/BigData/camdasIntermediarias.png>
@@ -2218,39 +2176,32 @@ Package pdftex.def Info: Figuras/BigData/camdasIntermediarias.png used on input
  line 369.
 (pdftex.def)             Requested size: 227.62154pt x 113.81pt.
 
-Overfull \vbox (13.76321pt too high) detected at line 369
+Overfull \vbox (20.26318pt too high) detected at line 369
  []
 
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 369.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [58
+ [50
 
- <./Figuras/BigData/camdasIntermediarias.png>] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 374
- []
-
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 374.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [59
-
-]
-<Figuras/BigData/ferqPalavrasG.png, id=2502, 702.625pt x 296.10625pt>
+ <./Figuras/BigData/camdasIntermediarias.png>] <Figuras/BigData/ferqPalavrasG.p
+ng, id=2076, 702.625pt x 296.10625pt>
 File: Figuras/BigData/ferqPalavrasG.png Graphic file (type png)
 
 <use Figuras/BigData/ferqPalavrasG.png>
 Package pdftex.def Info: Figuras/BigData/ferqPalavrasG.png used on input line 3
 86.
 (pdftex.def)             Requested size: 199.16736pt x 113.80922pt.
+
+Overfull \vbox (1.73679pt too high) detected at line 386
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
+<use Figuras/Capa/CirgMOdelo.png>
 Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 386.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
-
-[60
+ [51
 
  <./Figuras/BigData/ferqPalavrasG.png>]
 File: Figuras/BigData/ferqPalavrasG.png Graphic file (type png)
@@ -2259,112 +2210,1008 @@ File: Figuras/BigData/ferqPalavrasG.png Graphic file (type png)
 Package pdftex.def Info: Figuras/BigData/ferqPalavrasG.png used on input line 3
 86.
 (pdftex.def)             Requested size: 199.16736pt x 113.80922pt.
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 386.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
-[61
-
-]
-Overfull \vbox (16.40259pt too high) detected at line 411
+Overfull \vbox (1.73679pt too high) detected at line 386
  []
 
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 411.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 386.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [62
+ [52
 
 ]
-File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 437.
-(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+Overfull \vbox (22.90256pt too high) detected at line 412
+ []
 
-[63
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 412.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [53
+
+]
+Overfull \vbox (10.87338pt too high) detected at line 438
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 438.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [54
 
 ] (./ApresentaDissertaçao.toc)
+Overfull \vbox (64.99925pt too high) detected at line 441
+ []
+
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
- <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 439.
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 441.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [64
+ [55
 
 ]
-(./ApresentaDissertaçao.toc)
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 442.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 451.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[56
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 451.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [57
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 463.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[58
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 463.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [59
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 463.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[60
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 475.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [61
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 475.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[62
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 475.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [63
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 487.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[64
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 487.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
  [65
 
 ]
-(./ApresentaDissertaçao.toc)
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 444.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 487.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [66
 
-]
-(./ApresentaDissertaçao.toc)
-Overfull \vbox (19.82843pt too high) detected at line 447
+[66
+
+] <Figuras/Metodologia/metodologiaGeral3.png, id=2688, 803.0pt x 437.635pt>
+File: Figuras/Metodologia/metodologiaGeral3.png Graphic file (type png)
+
+<use Figuras/Metodologia/metodologiaGeral3.png>
+Package pdftex.def Info: Figuras/Metodologia/metodologiaGeral3.png used on inpu
+t line 496.
+(pdftex.def)             Requested size: 284.534pt x 142.26308pt.
+
+Overfull \vbox (25.13152pt too high) detected at line 496
  []
 
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
 <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 447.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 496.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
  [67
 
-] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 448
- []
-
+ <./Figuras/Metodologia/metodologiaGeral3.png>]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 448.
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 514.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
  [68
 
 ]
-<Figuras/Extras/InterfaceGrafica.png, id=2858, 608.2725pt x 403.5075pt>
-File: Figuras/Extras/InterfaceGrafica.png Graphic file (type png)
-
-<use Figuras/Extras/InterfaceGrafica.png>
-Package pdftex.def Info: Figuras/Extras/InterfaceGrafica.png used on input line
- 457.
-(pdftex.def)             Requested size: 284.53302pt x 128.03523pt.
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 457.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 529.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
 
 [69
 
- <./Figuras/Extras/InterfaceGrafica.png>] (./ApresentaDissertaçao.toc)
-Overfull \vbox (43.67828pt too high) detected at line 459
- []
-
+]
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
-<use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 459.
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 543.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
  [70
 
 ]
-<Figuras/Extras/Cisti122.png, id=2942, 638.385pt x 190.7125pt>
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 543.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[71
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 543.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [72
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 543.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[73
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 543.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [74
+
+]
+<Figuras/Metodologia/MM2d101.png, id=2981, 539.01375pt x 238.8925pt>
+File: Figuras/Metodologia/MM2d101.png Graphic file (type png)
+
+<use Figuras/Metodologia/MM2d101.png>
+Package pdftex.def Info: Figuras/Metodologia/MM2d101.png used on input line 556
+.
+(pdftex.def)             Requested size: 312.98184pt x 142.26126pt.
+
+Overfull \hbox (5.69197pt too wide) in paragraph at lines 556--556
+ [] 
+ []
+
+
+Overfull \vbox (49.29846pt too high) detected at line 556
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 556.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [75
+
+ <./Figuras/Metodologia/MM2d101.png>]
+File: Figuras/Metodologia/MM2d101.png Graphic file (type png)
+
+<use Figuras/Metodologia/MM2d101.png>
+Package pdftex.def Info: Figuras/Metodologia/MM2d101.png used on input line 556
+.
+(pdftex.def)             Requested size: 312.98184pt x 142.26126pt.
+
+Overfull \hbox (5.69197pt too wide) in paragraph at lines 556--556
+ [] 
+ []
+
+
+Overfull \vbox (49.29846pt too high) detected at line 556
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 556.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [76
+
+]pdfTeX warning (ext4): destination with the same identifier (name{fig:MatrizMo
+rtos2D}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.568 \end{frame}
+                 
+<Figuras/Metodologia/MatrizGravidade3D2.png, id=3058, 385.1991pt x 170.5572pt>
+File: Figuras/Metodologia/MatrizGravidade3D2.png Graphic file (type png)
+
+<use Figuras/Metodologia/MatrizGravidade3D2.png>
+Package pdftex.def Info: Figuras/Metodologia/MatrizGravidade3D2.png used on inp
+ut line 568.
+(pdftex.def)             Requested size: 312.98524pt x 142.27031pt.
+
+Overfull \hbox (5.69537pt too wide) in paragraph at lines 568--568
+ [] 
+ []
+
+
+Overfull \vbox (50.06793pt too high) detected at line 568
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 568.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [77
+
+ <./Figuras/Metodologia/MatrizGravidade3D2.png>]
+File: Figuras/Metodologia/MatrizGravidade3D2.png Graphic file (type png)
+ <use Figuras/Metodologia/MatrizGravidade3D2.png>
+Package pdftex.def Info: Figuras/Metodologia/MatrizGravidade3D2.png used on inp
+ut line 568.
+(pdftex.def)             Requested size: 312.98524pt x 142.27031pt.
+
+Overfull \hbox (5.69537pt too wide) in paragraph at lines 568--568
+ [] 
+ []
+
+
+Overfull \vbox (50.06793pt too high) detected at line 568
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 568.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [78
+
+]
+Overfull \hbox (26.47849pt too wide) detected at line 585
+\OT1/mathkerncmss/m/sl/10.95 ProbAcid[] \OT1/cmss/m/n/10.95 = (\OT1/mathkerncms
+s/m/sl/10.95 RestVisibi \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 Cond
+Pista \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 TracadoVia\OT1/cmss/m/
+n/10.95 ) \OMS/cmsy/m/n/10.95 ^^C \OT1/mathkerncmss/m/sl/10.95 Erro[] \OT1/cmss
+/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 Gravidade
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 585
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 585.
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 585.
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 585.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [79
+
+]
+Overfull \hbox (26.47849pt too wide) detected at line 585
+\OT1/mathkerncmss/m/sl/10.95 ProbAcid[] \OT1/cmss/m/n/10.95 = (\OT1/mathkerncms
+s/m/sl/10.95 RestVisibi \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 Cond
+Pista \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 TracadoVia\OT1/cmss/m/
+n/10.95 ) \OMS/cmss/m/n/10.95 ^^C \OT1/mathkerncmss/m/sl/10.95 Erro[] \OT1/cmss
+/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 Gravidade
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 585.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [80
+
+]
+Overfull \hbox (26.47849pt too wide) detected at line 585
+\OT1/mathkerncmss/m/sl/10.95 ProbAcid[] \OT1/cmss/m/n/10.95 = (\OT1/mathkerncms
+s/m/sl/10.95 RestVisibi \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 Cond
+Pista \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 TracadoVia\OT1/cmss/m/
+n/10.95 ) \OMS/cmss/m/n/10.95 ^^C \OT1/mathkerncmss/m/sl/10.95 Erro[] \OT1/cmss
+/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 Gravidade
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 585.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [81
+
+]
+<Figuras/Metodologia/ArcoCibernetico.png, id=3240, 442.65375pt x 195.73125pt>
+File: Figuras/Metodologia/ArcoCibernetico.png Graphic file (type png)
+
+<use Figuras/Metodologia/ArcoCibernetico.png>
+Package pdftex.def Info: Figuras/Metodologia/ArcoCibernetico.png used on input 
+line 599.
+(pdftex.def)             Requested size: 199.17207pt x 85.35744pt.
+
+Overfull \vbox (20.35507pt too high) detected at line 599
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 599.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [82
+
+ <./Figuras/Metodologia/ArcoCibernetico.png>]
+File: Figuras/Metodologia/ArcoCibernetico.png Graphic file (type png)
+ <use Figuras/Metodologia/ArcoCibernetico.png>
+Package pdftex.def Info: Figuras/Metodologia/ArcoCibernetico.png used on input 
+line 599.
+(pdftex.def)             Requested size: 199.17207pt x 85.35744pt.
+
+Overfull \vbox (20.35507pt too high) detected at line 599
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 599.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [83
+
+]
+File: Figuras/Metodologia/ArcoCibernetico.png Graphic file (type png)
+
+<use Figuras/Metodologia/ArcoCibernetico.png>
+Package pdftex.def Info: Figuras/Metodologia/ArcoCibernetico.png used on input 
+line 599.
+(pdftex.def)             Requested size: 199.17207pt x 85.35744pt.
+
+Overfull \vbox (20.35507pt too high) detected at line 599
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 599.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [84
+
+]
+<Figuras/Metodologia/georreferenciamento.png, id=3351, 642.4pt x 603.25375pt>
+File: Figuras/Metodologia/georreferenciamento.png Graphic file (type png)
+
+<use Figuras/Metodologia/georreferenciamento.png>
+Package pdftex.def Info: Figuras/Metodologia/georreferenciamento.png used on in
+put line 611.
+(pdftex.def)             Requested size: 227.6174pt x 113.80937pt.
+
+Overfull \vbox (21.607pt too high) detected at line 611
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 611.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [85
+
+ <./Figuras/Metodologia/georreferenciamento.png (PNG copy)>]
+File: Figuras/Metodologia/georreferenciamento.png Graphic file (type png)
+ <use Figuras/Metodologia/georreferenciamento.png>
+Package pdftex.def Info: Figuras/Metodologia/georreferenciamento.png used on in
+put line 611.
+(pdftex.def)             Requested size: 227.6174pt x 113.80937pt.
+
+Overfull \vbox (21.607pt too high) detected at line 611
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 611.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [86
+
+] (./ApresentaDissertaçao.toc)
+Overfull \vbox (37.79924pt too high) detected at line 614
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 614.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [87
+
+]
+<Figuras/Resultados/metodologia.png, id=3470, 1292.83pt x 435.226pt>
+File: Figuras/Resultados/metodologia.png Graphic file (type png)
+
+<use Figuras/Resultados/metodologia.png>
+Package pdftex.def Info: Figuras/Resultados/metodologia.png used on input line 
+625.
+(pdftex.def)             Requested size: 284.52211pt x 142.26361pt.
+
+Overfull \vbox (7.13205pt too high) detected at line 625
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 625.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [88
+
+ <./Figuras/Resultados/metodologia.png>]
+Overfull \vbox (0.12407pt too high) detected at line 647
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 647.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [89
+
+]
+Overfull \vbox (0.12407pt too high) detected at line 647
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 647.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [90
+
+]
+Overfull \vbox (0.12407pt too high) detected at line 647
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 647.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [91
+
+]
+Overfull \vbox (0.12407pt too high) detected at line 647
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 647.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [92
+
+]
+Overfull \vbox (0.12407pt too high) detected at line 647
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 647.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [93
+
+]
+Overfull \vbox (0.12407pt too high) detected at line 647
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 647.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [94
+
+]
+Overfull \vbox (0.12407pt too high) detected at line 647
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 647.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [95
+
+]
+Overfull \vbox (0.12407pt too high) detected at line 647
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 647.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [96
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 660.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[97
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 660.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [98
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 660.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[99
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 672.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [100
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 672.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[101
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 672.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [102
+
+]
+<Figuras/Preprocess/br101.png, id=3988, 481.8pt x 481.8pt>
+File: Figuras/Preprocess/br101.png Graphic file (type png)
+
+<use Figuras/Preprocess/br101.png>
+Package pdftex.def Info: Figuras/Preprocess/br101.png used on input line 686.
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+
+<Figuras/Preprocess/br101_2.png, id=3989, 481.8pt x 481.8pt>
+File: Figuras/Preprocess/br101_2.png Graphic file (type png)
+
+<use Figuras/Preprocess/br101_2.png>
+Package pdftex.def Info: Figuras/Preprocess/br101_2.png used on input line 686.
+
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+
+<Figuras/Preprocess/br101_4.png, id=3990, 481.8pt x 481.8pt>
+File: Figuras/Preprocess/br101_4.png Graphic file (type png)
+
+<use Figuras/Preprocess/br101_4.png>
+Package pdftex.def Info: Figuras/Preprocess/br101_4.png used on input line 686.
+
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+
+Overfull \vbox (31.93149pt too high) detected at line 686
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 686.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [103
+
+ <./Figuras/Preprocess/br101.png> <./Figuras/Preprocess/br101_2.png> <./Figuras
+/Preprocess/br101_4.png>]
+File: Figuras/Preprocess/br101.png Graphic file (type png)
+
+<use Figuras/Preprocess/br101.png>
+Package pdftex.def Info: Figuras/Preprocess/br101.png used on input line 686.
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+File: Figuras/Preprocess/br101_2.png Graphic file (type png)
+ <use Figuras/Preprocess/br101_2.png>
+Package pdftex.def Info: Figuras/Preprocess/br101_2.png used on input line 686.
+
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+File: Figuras/Preprocess/br101_4.png Graphic file (type png)
+
+<use Figuras/Preprocess/br101_4.png>
+Package pdftex.def Info: Figuras/Preprocess/br101_4.png used on input line 686.
+
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+
+Overfull \vbox (31.93149pt too high) detected at line 686
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 686.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [104
+
+]
+<Figuras/Preprocess/br104_12.png, id=4064, 481.8pt x 481.8pt>
+File: Figuras/Preprocess/br104_12.png Graphic file (type png)
+
+<use Figuras/Preprocess/br104_12.png>
+Package pdftex.def Info: Figuras/Preprocess/br104_12.png used on input line 698
+.
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+
+<Figuras/Preprocess/br104_2.png, id=4065, 481.8pt x 481.8pt>
+File: Figuras/Preprocess/br104_2.png Graphic file (type png)
+
+<use Figuras/Preprocess/br104_2.png>
+Package pdftex.def Info: Figuras/Preprocess/br104_2.png used on input line 698.
+
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+
+<Figuras/Preprocess/br104_3.png, id=4066, 481.8pt x 481.8pt>
+File: Figuras/Preprocess/br104_3.png Graphic file (type png)
+
+<use Figuras/Preprocess/br104_3.png>
+Package pdftex.def Info: Figuras/Preprocess/br104_3.png used on input line 698.
+
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+
+Overfull \vbox (4.46532pt too high) detected at line 698
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 698.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [105
+
+ <./Figuras/Preprocess/br104_12.png> <./Figuras/Preprocess/br104_2.png (PNG cop
+y)> <./Figuras/Preprocess/br104_3.png>]
+File: Figuras/Preprocess/br104_12.png Graphic file (type png)
+
+<use Figuras/Preprocess/br104_12.png>
+Package pdftex.def Info: Figuras/Preprocess/br104_12.png used on input line 698
+.
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+File: Figuras/Preprocess/br104_2.png Graphic file (type png)
+ <use Figuras/Preprocess/br104_2.png>
+Package pdftex.def Info: Figuras/Preprocess/br104_2.png used on input line 698.
+
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+File: Figuras/Preprocess/br104_3.png Graphic file (type png)
+
+<use Figuras/Preprocess/br104_3.png>
+Package pdftex.def Info: Figuras/Preprocess/br104_3.png used on input line 698.
+
+(pdftex.def)             Requested size: 99.57831pt x 99.57831pt.
+
+Overfull \vbox (4.46532pt too high) detected at line 698
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 698.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [106
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 714.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[107
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 714.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [108
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 747.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [109
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 747.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[110
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 771.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [111
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 797.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [112
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 813.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[113
+
+] <Figuras/Resultados/Km70BR101.png, id=4378, 837.1275pt x 516.93124pt>
+File: Figuras/Resultados/Km70BR101.png Graphic file (type png)
+
+<use Figuras/Resultados/Km70BR101.png>
+Package pdftex.def Info: Figuras/Resultados/Km70BR101.png used on input line 82
+4.
+(pdftex.def)             Requested size: 312.97679pt x 184.9435pt.
+
+Overfull \hbox (5.68692pt too wide) in paragraph at lines 824--824
+ [] 
+ []
+
+
+Overfull \vbox (42.03415pt too high) detected at line 824
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 824.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [114
+
+ <./Figuras/Resultados/Km70BR101.png>]
+<Figuras/Resultados/MM2d101.png, id=4416, 541.02126pt x 237.88875pt>
+File: Figuras/Resultados/MM2d101.png Graphic file (type png)
+
+<use Figuras/Resultados/MM2d101.png>
+Package pdftex.def Info: Figuras/Resultados/MM2d101.png used on input line 835.
+
+(pdftex.def)             Requested size: 312.99178pt x 142.26971pt.
+
+Overfull \hbox (5.7019pt too wide) in paragraph at lines 835--835
+ [] 
+ []
+
+
+Overfull \vbox (13.92288pt too high) detected at line 835
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 835.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [115
+
+ <./Figuras/Resultados/MM2d101.png>]
+LaTeX Font Info:    Try loading font information for TS1+cmss on input line 844
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+<Figuras/Metodologia/RotaExemplo.png, id=4454, 948.54375pt x 343.2825pt>
+File: Figuras/Metodologia/RotaExemplo.png Graphic file (type png)
+
+<use Figuras/Metodologia/RotaExemplo.png>
+Package pdftex.def Info: Figuras/Metodologia/RotaExemplo.png used on input line
+ 844.
+(pdftex.def)             Requested size: 312.97697pt x 170.71368pt.
+
+Overfull \hbox (5.6871pt too wide) in paragraph at lines 844--844
+ [] 
+ []
+
+
+Overfull \vbox (23.7001pt too high) detected at line 844
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 844.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [116
+
+ <./Figuras/Metodologia/RotaExemplo.png>]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 856.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [117
+
+]
+<Figuras/Twitter/freqPalavr.png, id=4524, 258.21469pt x 194.22563pt>
+File: Figuras/Twitter/freqPalavr.png Graphic file (type png)
+
+<use Figuras/Twitter/freqPalavr.png>
+Package pdftex.def Info: Figuras/Twitter/freqPalavr.png used on input line 870.
+
+(pdftex.def)             Requested size: 213.40404pt x 128.04112pt.
+
+Overfull \vbox (19.8943pt too high) detected at line 870
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 870.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [118
+
+ <./Figuras/Twitter/freqPalavr.png>]
+<Figuras/Twitter/nuvem2.png, id=4560, 522.45187pt x 364.36125pt>
+File: Figuras/Twitter/nuvem2.png Graphic file (type png)
+
+<use Figuras/Twitter/nuvem2.png>
+Package pdftex.def Info: Figuras/Twitter/nuvem2.png used on input line 880.
+(pdftex.def)             Requested size: 213.39351pt x 128.03427pt.
+
+Overfull \vbox (4.15828pt too high) detected at line 880
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 880.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [119
+
+ <./Figuras/Twitter/nuvem2.png (PNG copy)>] <Figuras/Twitter/Cluster.png, id=45
+95, 430.60875pt x 255.20343pt>
+File: Figuras/Twitter/Cluster.png Graphic file (type png)
+
+<use Figuras/Twitter/Cluster.png>
+Package pdftex.def Info: Figuras/Twitter/Cluster.png used on input line 891.
+(pdftex.def)             Requested size: 213.39838pt x 128.04143pt.
+
+Overfull \vbox (19.8946pt too high) detected at line 891
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 891.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [120
+
+ <./Figuras/Twitter/Cluster.png (PNG copy)>] <Figuras/Twitter/Cluster2.png, id=
+4630, 430.60875pt x 255.20343pt>
+File: Figuras/Twitter/Cluster2.png Graphic file (type png)
+
+<use Figuras/Twitter/Cluster2.png>
+Package pdftex.def Info: Figuras/Twitter/Cluster2.png used on input line 902.
+(pdftex.def)             Requested size: 270.30592pt x 99.58734pt.
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 902.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [121
+
+ <./Figuras/Twitter/Cluster2.png (PNG copy)>] (./ApresentaDissertaçao.toc)
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 904.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [122
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 911.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[123
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 921.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [124
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 929.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [125
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 938.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[126
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 946.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [127
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 952.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [128
+
+] (./ApresentaDissertaçao.toc)
+Overfull \vbox (26.3284pt too high) detected at line 956
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 956.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [129
+
+]
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+ <use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 965.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+
+[130
+
+] <Figuras/Extras/InterfaceGrafica.png, id=4965, 608.2725pt x 403.5075pt>
+File: Figuras/Extras/InterfaceGrafica.png Graphic file (type png)
+
+<use Figuras/Extras/InterfaceGrafica.png>
+Package pdftex.def Info: Figuras/Extras/InterfaceGrafica.png used on input line
+ 975.
+(pdftex.def)             Requested size: 284.53302pt x 128.03523pt.
+
+Overfull \vbox (35.83286pt too high) detected at line 975
+ []
+
+File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
+<use Figuras/Capa/CirgMOdelo.png>
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 975.
+(pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
+ [131
+
+ <./Figuras/Extras/InterfaceGrafica.png>] <Figuras/Extras/Cisti122.png, id=4999
+, 638.385pt x 190.7125pt>
 File: Figuras/Extras/Cisti122.png Graphic file (type png)
 
 <use Figuras/Extras/Cisti122.png>
-Package pdftex.def Info: Figuras/Extras/Cisti122.png used on input line 468.
+Package pdftex.def Info: Figuras/Extras/Cisti122.png used on input line 986.
 (pdftex.def)             Requested size: 227.61696pt x 71.12996pt.
 File: Figuras/Capa/CirgMOdelo.png Graphic file (type png)
  <use Figuras/Capa/CirgMOdelo.png>
-Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 468.
+Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 986.
 (pdftex.def)             Requested size: 364.19536pt x 273.03362pt.
- [71
+ [132
 
  <./Figuras/Extras/Cisti122.png (PNG copy)>]
 \tf@nav=\write6
@@ -2376,47 +3223,55 @@ Package pdftex.def Info: Figuras/Capa/CirgMOdelo.png used on input line 468.
 \tf@snm=\write8
 \openout8 = `ApresentaDissertaçao.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 988.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 988.
  (./ApresentaDissertaçao.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 988.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 988.
 Package rerunfilecheck Info: File `ApresentaDissertaçao.out' has not changed.
-(rerunfilecheck)             Checksum: 9B7A45357AE401A992904C795FB6A829;1119.
+(rerunfilecheck)             Checksum: AEB79B01DD70120C8370F8B173E311B9;1841.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 988.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23058 strings out of 494790
- 447465 string characters out of 6174858
- 528812 words of memory out of 5000000
- 25639 multiletter control sequences out of 15000+600000
- 11283 words of font info for 41 fonts, out of 8000000 for 9000
+ 23381 strings out of 494790
+ 452996 string characters out of 6174858
+ 534523 words of memory out of 5000000
+ 25821 multiletter control sequences out of 15000+600000
+ 11984 words of font info for 43 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
- 56i,20n,65p,418b,3773s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mssi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mssi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb>
-Output written on ApresentaDissertaçao.pdf (71 pages, 1380857 bytes).
+ 56i,20n,65p,460b,4235s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm
+-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+sbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ssi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ssi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss1095.
+pfb>
+Output written on ApresentaDissertaçao.pdf (132 pages, 3189112 bytes).
 PDF statistics:
- 3046 PDF objects out of 3580 (max. 8388607)
- 2877 compressed objects within 29 object streams
- 160 named destinations out of 1000 (max. 500000)
- 374 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5139 PDF objects out of 5155 (max. 8388607)
+ 4858 compressed objects within 49 object streams
+ 294 named destinations out of 1000 (max. 500000)
+ 535 words of extra memory for PDF output out of 10000 (max. 10000000)
 
